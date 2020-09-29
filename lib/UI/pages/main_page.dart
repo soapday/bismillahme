@@ -7,7 +7,8 @@ class MainPage extends StatelessWidget {
     PageController controller = PageController(initialPage: 0,viewportFraction: 0.6);
     List<String> urls = [
         "https://images-na.ssl-images-amazon.com/images.I/A1hFzTczzJL._SL1500_.jpg",
-      "https://images.unsplash.com/photo-1600711269860-ff440f53ed42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
+        "https://images.unsplash.com/photo-1600711269860-ff440f53ed42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
+        "https://images.unsplash.com/photo-1591284452522-12ba639942fd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
 
     ];
     return Scaffold(
